@@ -1,3 +1,7 @@
 # Mathematical Analysis of the Substitution Code
-How would you attempt to decode this message if you didn't have a key. What is the mathematical complexity to solve the code?
-There are 26 factorial possible keys. That's 403,291,461,126,605,635,584,000,000 possible keys.
+What is the mathematical complexity to solve the code?
+There are 25 factorial possible keys. That's 15,511,210,043,330,985,984,000,000 possible keys. 
+
+This is because the first letter in the alphabet has 25 
+
+If you don't have the key, you have to brute force it with a computer by trying all of the possible solutions.

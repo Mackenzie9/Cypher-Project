@@ -1,8 +1,8 @@
 # Cypher-Project
-Substitution Cypher: 
+#### Substitution Cypher: 
 * [Historical Context](Historical-Substitution.md)
 * [Mechanics](Mechanics-Substitution.md)
 * [Mathematical Analysis](Mathematical-Sub.md)
 * [Code](Substitution-code.md)
-Multiplicitive Cipher:
+#### Multiplicitive Cipher:
 * [Code](Multiplicitive-code.md)

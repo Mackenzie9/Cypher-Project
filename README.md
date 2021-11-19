@@ -6,4 +6,5 @@
 * [Code](Substitution-code.md)
 #### Multiplicitive Cipher:
 * [Historical Context](history-mca.md)
+* [mechanics](multiplicative-mechanics.md)
 * [Code](Multiplicitive-code.md)

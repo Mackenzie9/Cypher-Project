@@ -1,4 +1,4 @@
-## I Wrote The Code For the Multiplicative Cipher
+## I Wrote The Code Below, Which Works Both as a Cipher and Decipher
 
 ##### Sets Numbers to Their Intended Values:
 *       a = 26

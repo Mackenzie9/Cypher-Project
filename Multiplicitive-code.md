@@ -38,32 +38,32 @@
 ##### The Main Program. Runs the Program Through the Calculations for Each Letter (I'm Not Sure if the Math is Correct):
 *     while guu == 0:
          if mod > 0:
-            aa = str(0)
-            bb = round(b / mod + (b % mod))
-            cc = round(c / mod + (c % mod))
-            dd = round(d / mod + (d % mod))
-            ee = round(e / mod + (e % mod))
-            ff = round(f / mod + (f % mod))
-            gg = round(g / mod + (g % mod))
-            hh = round(h / mod + (h % mod))
-            ii = round(i / mod + (i % mod))
-            jj = round(j / mod + (j % mod))
-            kk = round(k / mod + (k % mod))
-            ll = round(l / mod + (l % mod))
-            mm = round(m / mod + (m % mod))
-            nn = round(n / mod + (n % mod))
-            oo = round(o / mod + (o % mod))
-            pp = round(p / mod + (p % mod))
-            qq = round(q / mod + (q % mod))
-            rr = round(r / mod + (r % mod))
-            ss = round(s / mod + (s % mod))
-            tt = round(t / mod + (t % mod))
-            uu = round(u / mod + (u % mod))
-            vv = round(v / mod + (v % mod))
-            ww = round(w / mod + (w % mod))
-            xx = round(x / mod + (x % mod))
-            yy = round(y / mod + (y % mod))
-            zz = round(z / mod + (z % mod))
+            aa = (a * mod)%26
+            bb = (b * mod)%26
+            cc = (c * mod)%26
+            dd = (d * mod)%26
+            ee = (e * mod)%26
+            ff = (f * mod)%26
+            gg = (g * mod)%26
+            hh = (h * mod)%26
+            ii = (i * mod)%26
+            jj = (j * mod)%26
+            kk = (k * mod)%26
+            ll = (l * mod)%26
+            mm = (m * mod)%26
+            nn = (n * mod)%26
+            oo = (o * mod)%26
+            pp = (p * mod)%26
+            qq = (q * mod)%26
+            rr = (r * mod)%26
+            ss = (s * mod)%26
+            tt = (t * mod)%26
+            uu = (u * mod)%26
+            vv = (v * mod)%26
+            ww = (w * mod)%26
+            xx = (x * mod)%26
+            yy = (y * mod)%26
+            zz = (z * mod)%26
 ##### Allows the Program to End:        
 *        guu = 1
 ##### Asks the User For a Different Input if They Input Something Other Than a Integer:    
@@ -77,32 +77,32 @@
 
 
 ##### Prints the Results by Adding the Numbers From the Calculations with 65. (The Unicode for Capital A is 65.):
-*       print("a:" + "A")
-        print("b:" + chr(bb + 65))
-        print("c:" + chr(cc + 65))
-        print("d:" + chr(dd + 65))
-        print("e:" + chr(ee + 65))
-        print("f:" + chr(ff + 65))
-        print("g:" + chr(gg + 65))
-        print("h:" + chr(hh + 65))
-        print("i:" + chr(ii + 65))
-        print("j:" + chr(jj + 65))
-        print("k:" + chr(kk + 65))
-        print("l:" + chr(ll + 65))
-        print("m:" + chr(mm + 65))
-        print("n:" + chr(nn + 65))
-        print("o:" + chr(oo + 65))
-        print("p:" + chr(pp + 65))
-        print("q:" + chr(qq + 65))
-        print("r:" + chr(rr + 65))
-        print("s:" + chr(ss + 65))
-        print("t:" + chr(tt + 65))
-        print("u:" + chr(uu + 65))
-        print("v:" + chr(vv + 65))
-        print("w:" + chr(ww + 65))
-        print("x:" + chr(xx + 65))
-        print("y:" + chr(yy + 65))
-        print("z:" + chr(zz + 65))
+*       print("a:" + chr(bb + 97))
+        print("b:" + chr(bb + 97))
+        print("c:" + chr(cc + 97))
+        print("d:" + chr(dd + 97))
+        print("e:" + chr(ee + 97))
+        print("f:" + chr(ff + 97))
+        print("g:" + chr(gg + 97))
+        print("h:" + chr(hh + 97))
+        print("i:" + chr(ii + 97))
+        print("j:" + chr(jj + 97))
+        print("k:" + chr(kk + 97))
+        print("l:" + chr(ll + 97))
+        print("m:" + chr(mm + 97))
+        print("n:" + chr(nn + 97))
+        print("o:" + chr(oo + 97))
+        print("p:" + chr(pp + 97))
+        print("q:" + chr(qq + 97))
+        print("r:" + chr(rr + 97))
+        print("s:" + chr(ss + 97))
+        print("t:" + chr(tt + 97))
+        print("u:" + chr(uu + 97))
+        print("v:" + chr(vv + 97))
+        print("w:" + chr(ww + 97))
+        print("x:" + chr(xx + 97))
+        print("y:" + chr(yy + 97))
+        print("z:" + chr(zz + 97))
   
   
   

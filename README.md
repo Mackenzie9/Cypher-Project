@@ -9,6 +9,8 @@
 * [Final Analysis](yay.md)
 
 #### Multiplicitive Cipher:
+* [Historical Context](history-mca.md)
+* [mechanics](multiplicative-mechanics.md)
 * [Code](Multiplicitive-code.md)
 * [Mathematical analysis](Mathematical-Analysis.md)
 * [Final Analysis](Final-Analysis.md)

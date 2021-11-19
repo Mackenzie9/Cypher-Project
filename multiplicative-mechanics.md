@@ -1,4 +1,4 @@
-a Multiplication Cypher is code that uses numbers to indicate letters. as that would be a simple cypher on its own we give it a multiplicatation key.
+A Multiplication Cypher is code that uses numbers to indicate letters. as that would be a simple cypher on its own we give it a multiplicatation key.
 there are good keys and bad keys. a good key doesnt have a repeating number corolating to more than one letter. a bad key doesnt use all 0-25 numbers but uses repeting numbers within 0-25 twice or more.
 good keys are: a= 3,5,7,9,11,15,17,19,21,23,25
 bad keys are: a = 2,4,6,8,10,12,13,14,16,18,20,22,24

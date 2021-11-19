@@ -11,7 +11,7 @@
 #### Multiplicitive Cipher:
 * [Historical Context](history-mca.md)
 * [mechanics](multiplicative-mechanics.md)
-* [Code](Multiplicitive-code.md)
 * [Mathematical analysis](Mathematical-Analysis.md)
+* [Code](Multiplicitive-code.md)
 * [Final Analysis](Final-Analysis.md)
 

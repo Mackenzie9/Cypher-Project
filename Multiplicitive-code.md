@@ -1,9 +1,7 @@
-## I Wrote The Code For the Multiplicative Cipher, Which was Considerably Harder
-#### I Ended Up Brute Forcing My Way Through It. It Doesn't Automatically Cipher and Decipher Like the Other Code
-
+## I Wrote The Code For the Multiplicative Cipher
 
 ##### Sets Numbers to Their Intended Values:
-*       a = 0
+*       a = 26
         b = 1
         c = 2
         d = 3
@@ -32,10 +30,11 @@
 
 ##### The Value I Used To Repeat The Program (True/False Works Too):
 *       guu = 0
+        run = True
 ##### User Input
 *       mod = int(input("Enter a mod number: "))
 
-##### The Main Program. Runs the Program Through the Calculations for Each Letter (I'm Not Sure if the Math is Correct):
+##### The Main Program. Runs the Program Through the Calculations for Each Letter and Returns a Different Letter, One That Varies Depending on the Mod Number Input:
 *     while guu == 0:
          if mod > 0:
             aa = (a * mod)%26
@@ -76,36 +75,51 @@
 
 
 
-##### Prints the Results by Adding the Numbers From the Calculations with 65. (The Unicode for Capital A is 65.):
-*       print("a:" + chr(bb + 97))
-        print("b:" + chr(bb + 97))
-        print("c:" + chr(cc + 97))
-        print("d:" + chr(dd + 97))
-        print("e:" + chr(ee + 97))
-        print("f:" + chr(ff + 97))
-        print("g:" + chr(gg + 97))
-        print("h:" + chr(hh + 97))
-        print("i:" + chr(ii + 97))
-        print("j:" + chr(jj + 97))
-        print("k:" + chr(kk + 97))
-        print("l:" + chr(ll + 97))
-        print("m:" + chr(mm + 97))
-        print("n:" + chr(nn + 97))
-        print("o:" + chr(oo + 97))
-        print("p:" + chr(pp + 97))
-        print("q:" + chr(qq + 97))
-        print("r:" + chr(rr + 97))
-        print("s:" + chr(ss + 97))
-        print("t:" + chr(tt + 97))
-        print("u:" + chr(uu + 97))
-        print("v:" + chr(vv + 97))
-        print("w:" + chr(ww + 97))
-        print("x:" + chr(xx + 97))
-        print("y:" + chr(yy + 97))
-        print("z:" + chr(zz + 97))
-  
-  
-  
-  
-  
-    
+##### Changes the Numbers We Got From the Previous Calculations Into a List That Can be Used to Cipher and Decipher the Input:
+*       aaa = (chr(aa + 97))
+        bbb = (chr(bb + 97))
+        ccc = (chr(cc + 97))
+        ddd = (chr(dd + 97))
+        eee = (chr(ee + 97))
+        fff = (chr(ff + 97))
+        ggg = (chr(gg + 97))
+        hhh = (chr(hh + 97))
+        iii = (chr(ii + 97))
+        jjj = (chr(jj + 97))
+        kkk = (chr(kk + 97))
+        lll = (chr(ll + 97))
+        mmm = (chr(mm + 97))
+        nnn = (chr(nn + 97))
+        ooo = (chr(oo + 97))
+        ppp = (chr(pp + 97))
+        qqq = (chr(qq + 97))
+        rrr = (chr(rr + 97))
+        sss = (chr(ss + 97))
+        ttt = (chr(tt + 97))
+        uuu = (chr(uu + 97))
+        vvv = (chr(vv + 97))
+        www = (chr(ww + 97))
+        xxx = (chr(xx + 97))
+        yyy = (chr(yy + 97))
+        zzz = (chr(zz + 97))
+        final = str(aaa + bbb + ccc + ddd + eee + fff + ggg + hhh + iii + jjj + kkk + lll + mmm + nnn + ooo + ppp + qqq + rrr + sss + ttt + uuu + vvv + www + xxx + yyy + zzz)
+##### Asks Whether the User Wants to Cipher or Decipher the Input:
+*       que = str(input("C for Cipher, D for Decipher: "))
+##### Loops the Question if the Input is Not Valid:
+*       while run == True:
+##### The Code That Runs if the User Inputs "C". Ciphers the Input:
+*       if que == "C":
+            tra = str.maketrans("abcdefghijklmnopqrstuvwxyz", str(final))
+            print(inpu.translate(tra))
+            run = False
+            break
+##### The Code That Runs if the User Inputs "D". Deciphers the Input:  
+*       if que == "D":
+            art = str.maketrans(str(final), "abcdefghijklmnopqrstuvwxyz") 
+            print(inpu.translate(art))
+            run = False
+            break  
+##### The Code That Runs if the User Inputs Something Other Than "C" or "D". Loops the Question Until the Input is Valid:   
+*       else:
+            print("Try again.")
+            que = str(input("C for Cipher, D for Decipher: "))

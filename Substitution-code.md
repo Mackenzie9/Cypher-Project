@@ -16,7 +16,7 @@
                break
 ##### The Code That Runs If the User Chose D. Converts Every Letter to the Letter Three Spaces After It (The Deipher):                
 *        if choi == "D":
-            digi = str(input("Write some numbers: "))
+            digi = str(input("Write some letters: "))
                print("Your result: ")
                print(digi.translate(apl))
                fin = 1

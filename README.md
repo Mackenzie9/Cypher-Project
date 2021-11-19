@@ -6,6 +6,7 @@
 * [Mechanics](Mechanics-Substitution.md)
 * [Mathematical Analysis](Mathematical-Sub.md)
 * [Code](Substitution-code.md)
+* [Final Analysis](yay.md)
 
 #### Multiplicitive Cipher:
 * [Code](Multiplicitive-code.md)

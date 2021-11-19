@@ -30,7 +30,7 @@
         y = 24
         z = 25
 
-##### The Value I Used To Repeat The Program (True/Falso Works Too):
+##### The Value I Used To Repeat The Program (True/False Works Too):
 *       guu = 0
 ##### User Input
 *       mod = int(input("Enter a mod number: "))

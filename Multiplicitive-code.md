@@ -35,7 +35,7 @@
 ##### User Input
 *       mod = int(input("Enter a mod number: "))
 
-##### The Main Program. Runs the Program Through the Calculations for Each Letter:
+##### The Main Program. Runs the Program Through the Calculations for Each Letter (I'm Not Sure if the Math is Correct):
 *     while guu == 0:
          if mod > 0:
             aa = str(0)

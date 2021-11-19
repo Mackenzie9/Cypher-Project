@@ -2,7 +2,7 @@
 #### I Ended Up Brute Forcing My Way Through It. It Doesn't Automatically Cipher and Decipher Like the Other Code
 
 
-##### Sets Numbers to Their Intended Values
+##### Sets Numbers to Their Intended Values:
 *       a = 0
         b = 1
         c = 2
@@ -30,12 +30,12 @@
         y = 24
         z = 25
 
-##### The Value I Used To Repeat The Program (True/Falso Works Too)
+##### The Value I Used To Repeat The Program (True/Falso Works Too):
 *       guu = 0
 ##### User Input
 *       mod = int(input("Enter a mod number: "))
 
-##### Main Program. Runs the Program Through the Calculations for Each Letter
+##### The Main Program. Runs the Program Through the Calculations for Each Letter:
 *     while guu == 0:
          if mod > 0:
             aa = str(0)
@@ -64,9 +64,9 @@
             xx = round(x / mod + (x % mod))
             yy = round(y / mod + (y % mod))
             zz = round(z / mod + (z % mod))
-##### Allows the Program to End        
+##### Allows the Program to End:        
 *        guu = 1
-##### Asks the User For a Different Input if They Input Something Other Than a Integer    
+##### Asks the User For a Different Input if They Input Something Other Than a Integer:    
 *     else:
         print("Try again.")
         mod = int(input("Enter a mod number: "))
@@ -76,7 +76,7 @@
 
 
 
-##### Prints the Results by Adding the Numbers From the Calculations with 65. (The Unicode for Capital A is 65.)
+##### Prints the Results by Adding the Numbers From the Calculations with 65. (The Unicode for Capital A is 65.):
 *       print("a:" + "A")
         print("b:" + chr(bb + 65))
         print("c:" + chr(cc + 65))

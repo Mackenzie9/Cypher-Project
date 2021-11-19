@@ -1,5 +1,8 @@
 ## I Wrote The Code Below, Which Works Both as a Cipher and Decipher
 
+##### Asks the User for The Letters They Would Like to Cipher/Decipher:
+*       inpu = str(input("Enter Some Letters: "))
+
 ##### Sets Numbers to Their Intended Values:
 *       a = 26
         b = 1

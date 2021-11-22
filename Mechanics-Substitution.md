@@ -8,4 +8,6 @@ For example, the Caesar cypher, a substitution cypher, substitutes the letters w
 
 So with this code the word "wonderful" would become "tlkabocri".
 
+Or if you really dislike someone named Jackie, you could make it so that A becomes S, n becomes u, d becomes c, e becomes k, r becomes e, and s becomes r. This makes "Anders" would turn to "sucker"
+
 In order to decript it all you need to do is do the reverse substitution of the letters. If you have the key, then it's very easy, but otherwise you have to figure out which letters refer to which and that leaves many possibilities.

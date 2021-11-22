@@ -5,4 +5,5 @@ bad keys are: a = 2,4,6,8,10,12,13,14,16,18,20,22,24
 what a multiplication key of 3 would look like: 0	3	6	9	12	15	18	21	24	1	4	7	10	13	16	19	22	25	2	5	8	11	14	17	20	23
 meaning A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 multiplication keys of a=0 and a=1 dont have any use as 0 turns every number to 0 and 1 doesnt scramble or change anything
+
 ![photo](https://www.tutorialspoint.com/cryptography_with_python/images/encrypted_letter.jpg)

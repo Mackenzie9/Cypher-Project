@@ -1,5 +1,5 @@
 ## I Wrote The Code Below, Which Works Both as an Cipher and a Decipher.
-##### The Translators: 
+##### The Translators ("numbe" Turns Plaintext Into Ciphertext and "apl" Does the Opposite): 
 *     numbe = str.maketrans("abcdefghijklmnopqrstuvwxyz", "xyzabcdefghijklmnopqrstuvw") 
       apl = str.maketrans("xyzabcdefghijklmnopqrstuvw", "abcdefghijklmnopqrstuvwxyz")
 ##### The Code That Asks Whether The User Wants to Cipher or Decipher: 
